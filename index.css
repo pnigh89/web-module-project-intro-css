@@ -80,6 +80,7 @@ nav {
 }
 
 nav a {
+    color: white;
     display:inline-block;
     margin:0 5%;
     width:100px;
@@ -89,15 +90,30 @@ nav a {
 }
 
 nav #plan a{
-    display:inline-block;
+    
     background-color: #FF764E;  
 }
 
 #learn a{
-    display:inline-block;
+    
     background-color:#5ED3EB;
 }
 
 #involved a{
     background-color: #FFCD69;
+}
+
+header img {
+   width: 25%;
+    border-radius: 50%;
+}
+
+header {
+    display:inline-block;
+}
+
+.main-text {
+    color: white;
+    background-color: #DDB9A3
+    
 }
