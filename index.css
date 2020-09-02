@@ -74,24 +74,30 @@ h1 {
 
 header h1  {
     display:inline-block;
+    width: 100%;
 }
 
 nav {
    margin: 0 auto;
-   display: inline-block;
    align-items: center;
+   width: 100%;
+   margin-left:20%;
+   margin-bottom: 5%;
     
 
 }
 
 nav a {
     color: white;
-    display:inline-block;
-    margin:0;
+    display:inline-block; 
+    margin:0 3%;
     width:100px;
+    height: 20%;
     padding: 2% 0;
     border-radius:10px;
-    border:2px solid black;
+    border:2px;
+    text-align: justify;
+    text-decoration:none;
 }
 
 nav a:first-child{
@@ -127,12 +133,13 @@ header h1 p {
 .fire {
     align-content: center;
 }
-
-.container div img {
-    width: 100px;
+.fire img {
+    width: 10%;
 }
 
-
+.van img {
+    width: 10%;
+}
 
 footer {
     background-color: #F9E7DC;
@@ -143,6 +150,6 @@ footer img {
     height: 250px;
 }
 
-span.fire {
-    font-weight: ;
+span {
+    font-weight: bold;
 }
