@@ -68,13 +68,18 @@ body{
 }
 
 h1 {
-    font-size:2 rem;
+    font-size:3rem;
     font-family: 'Chelsea Market' , cursive;
 }
 
+header h1  {
+    display:inline-block;
+}
+
 nav {
-    
-    text-align:center;
+   margin: 0 auto;
+   display: inline-block;
+   align-items: center;
     
 
 }
@@ -82,24 +87,24 @@ nav {
 nav a {
     color: white;
     display:inline-block;
-    margin:0 5%;
+    margin:0;
     width:100px;
     padding: 2% 0;
     border-radius:10px;
     border:2px solid black;
 }
 
-nav #plan a{
+nav a:first-child{
     
     background-color: #FF764E;  
 }
 
-#learn a{
+nav a:nth-child(2){
     
     background-color:#5ED3EB;
 }
 
-#involved a{
+nav a:last-child{
     background-color: #FFCD69;
 }
 
@@ -108,12 +113,36 @@ header img {
     border-radius: 50%;
 }
 
-header {
+header h1 p {
     display:inline-block;
+    
 }
 
 .main-text {
     color: white;
     background-color: #DDB9A3
     
+}
+
+.fire {
+    align-content: center;
+}
+
+.container div img {
+    width: 100px;
+}
+
+
+
+footer {
+    background-color: #F9E7DC;
+}
+
+footer img {
+    width: 100%;
+    height: 250px;
+}
+
+span.fire {
+    font-weight: ;
 }
